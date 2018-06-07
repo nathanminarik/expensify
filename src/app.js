@@ -19,23 +19,23 @@ const store = configureStore();
   // console.log(visibleExpenses);
 // });
 
-store.dispatch(addExpense({
-  description: 'Water Bill',
-  amount: 30000,
-  createdAt: 10,
-}));
+// store.dispatch(addExpense({
+//   description: 'Water Bill',
+//   amount: 30000,
+//   createdAt: 10,
+// }));
 
-store.dispatch(addExpense({
-  description: 'Gas Bill',
-  amount: 4000,
-  createdAt:2000
-}));
+// store.dispatch(addExpense({
+//   description: 'Gas Bill',
+//   amount: 4000,
+//   createdAt:2000
+// }));
 
-store.dispatch(addExpense({
-  description: 'Electricity Bill',
-  amount: 1950000,
-  createdAt: 1000,
-}));
+// store.dispatch(addExpense({
+//   description: 'Electricity Bill',
+//   amount: 1950000,
+//   createdAt: 1000,
+// }));
 
 const jsx = (
   // <AppRouter />
