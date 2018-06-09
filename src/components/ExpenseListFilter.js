@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { setTextFilter, sortByDate, sortByAmount, setEndDate, setStartDate } from './../actions/filters';
 import { DateRangePicker } from 'react-dates';
 
+
 // controlled inputs simply refer to inputs whose values are controlled by javascript.
 export class ExpenseListFilter extends React.Component {
   state = {

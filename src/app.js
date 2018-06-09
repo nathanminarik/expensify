@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider, connect } from 'react-redux';
 import configureStore from './store/configureStore';
-import getVisibleExpenses from './selectors/expenses';
-import { addExpense, editExpense } from './actions/expenses'
-import { setEndDate, setStartDate, setTextFilter, sortByAmount, sortByDate } from './actions/filters'
+// import getVisibleExpenses from './selectors/expenses';
+// import { addExpense, editExpense } from './actions/expenses'
+// import { setEndDate, setStartDate, setTextFilter, sortByAmount, sortByDate } from './actions/filters'
 import 'react-dates/initialize';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
